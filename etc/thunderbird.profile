@@ -14,6 +14,12 @@ noblacklist ${HOME}/.gnupg
 # noblacklist ${HOME}/.icedove
 noblacklist ${HOME}/.thunderbird
 
+# If you want to use firefox profile
+#noblacklist ${HOME}/.cache/mozilla
+#noblacklist ${HOME}/.mozilla
+#whitelist ${HOME}/.cache/mozilla/firefox
+#whitelist ${HOME}/.mozilla
+
 # If you have setup Thunderbird to archive emails to a local folder,
 # make sure you add the path to that folder to the mkdir and whitelist
 # rules below. Otherwise they will be deleted when you close Thunderbird.
